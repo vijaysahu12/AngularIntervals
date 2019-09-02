@@ -8,6 +8,7 @@ import { DatePipe, UpperCasePipe } from '@angular/common';
 import { CartTwoComponent } from './components/cart-two/cart-two.component';
 import { MenuBarComponent } from './components/menu-bar/menu-bar.component';
 import { LastCharUperCasePipe } from './pipes/last-char-uper-case.pipe';
+import { ProductListComponent } from './components/product-list/product-list.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { LastCharUperCasePipe } from './pipes/last-char-uper-case.pipe';
     CartOneComponent,
     CartTwoComponent,
     MenuBarComponent,
-    LastCharUperCasePipe
+    LastCharUperCasePipe,
+    ProductListComponent
   ],
   imports: [
     BrowserModule,

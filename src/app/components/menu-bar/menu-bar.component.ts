@@ -30,6 +30,9 @@ export class MenuBarComponent implements OnInit {
           console.log('No Navigation');
         }
         break;
+        case 'productlist':
+        this.router.navigate(['productList']);
+        break;
       default:
         this.router.navigate(['']);
         break;

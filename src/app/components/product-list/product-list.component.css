@@ -1,0 +1,38 @@
+.container {
+  position: relative;
+  list-style-type: none;
+  margin: 2% 5%;
+  padding: 5px;
+  font-weight: bolder;
+}
+
+
+.redColor {
+  content: 'I am red because current minute are divisible of 2.';
+  background: #e57373;
+  color: white;
+}
+
+.noColor {
+  content: 'I am transparent because current minutes are not divisilbe of 2.';
+  background: transparent;
+  color: black;
+}
+
+
+
+li {
+  padding: 12px;
+  display: inline-block;
+}
+
+ul {
+    padding: 5px;
+}
+
+ul:hover {
+  background: rgb(206, 203, 203);
+  color: #332419;
+  display: block;
+  text-decoration: none;
+}
