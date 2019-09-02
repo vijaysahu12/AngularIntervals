@@ -1,0 +1,37 @@
+.container {
+    position: relative;
+    border-radius: 4px;
+   
+    box-shadow: 0x 0px 12px rgba(0,0,0,0.2);
+}
+.cart  {
+    position: absolute;
+    left: 20vw;
+    align-content: center;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.cart :hover {
+    transform: scale(1.1,1.1);
+}
+
+.cart > div{
+    border: 2px solid black;
+    border-radius: 4px;
+    width: 200px;
+    height: 200px;
+    box-shadow: 1px 1px 10px 5px rgba(219, 123, 123, 0.2)
+}
+
+.redColor {
+    content: 'I am red because current minute are divisible of 2.';
+    background: #e57373;
+    color: white;
+}
+
+.noColor {
+    content: 'I am transparent because current minutes are not divisilbe of 2.';
+    background: transparent;
+    color: black;
+}
